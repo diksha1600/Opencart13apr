@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-28T08:43:51 IST" name="Suite" finished-at="2023-04-28T08:46:26 IST" duration-ms="155172">
+    <groups>
+    </groups>
+    <test started-at="2023-04-28T08:43:51 IST" name="Test" finished-at="2023-04-28T08:46:26 IST" duration-ms="155172">
+      <class name="testCases.TC_001_AccountRegistrationTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001_AccountRegistrationTest@3c41ed1d]" started-at="2023-04-28T08:43:53 IST" name="setup" finished-at="2023-04-28T08:45:17 IST" duration-ms="84875" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_account_Registration()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@3c41ed1d]" started-at="2023-04-28T08:45:18 IST" name="test_account_Registration" finished-at="2023-04-28T08:45:52 IST" duration-ms="34099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_account_Registration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@3c41ed1d]" started-at="2023-04-28T08:45:52 IST" name="tearDown" finished-at="2023-04-28T08:45:56 IST" duration-ms="4055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_001_AccountRegistrationTest -->
+      <class name="testCases.TC_002_LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_002_LoginTest@2d1ef81a]" started-at="2023-04-28T08:45:56 IST" name="setup" finished-at="2023-04-28T08:46:20 IST" duration-ms="24383" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_Login()[pri:0, instance:testCases.TC_002_LoginTest@2d1ef81a]" started-at="2023-04-28T08:46:20 IST" name="test_Login" finished-at="2023-04-28T08:46:23 IST" duration-ms="2621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_LoginTest@2d1ef81a]" started-at="2023-04-28T08:46:23 IST" name="tearDown" finished-at="2023-04-28T08:46:26 IST" duration-ms="3316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_002_LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
